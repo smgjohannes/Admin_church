@@ -1,0 +1,68 @@
+/* Overall container styles */
+.container {
+  display: flex; /* Enable flexbox for alignment */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  min-height: 100vh; /* Set full viewport height */
+  background-color: #007bff; /* Bootstrap primary blue */
+}
+
+/* Inner content box styles */
+.content-box {
+  background-color: #fff; /* White background */
+  padding: 20px; /* Padding for spacing */
+  border-radius: 5px; /* Rounded corners */
+  width: 25%; /* Set width to 25% */
+}
+
+/* Form styles */
+form {
+  display: flex; /* Enable flexbox for layout */
+  flex-direction: column; /* Stack form elements vertically */
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.mb-3 {
+  /* Margin for spacing between form elements */
+  margin-bottom: 15px;
+}
+
+label {
+  display: inline-block; /* Allow labels to stay next to inputs */
+  margin-bottom: 5px; /* Margin for spacing */
+}
+
+input[type='email'],
+input[type='password'] {
+  width: 100%; /* Set input width to 100% of its container */
+  padding: 10px; /* Padding for spacing */
+  border: 1px solid #ccc; /* Light gray border */
+  border-radius: 3px; /* Rounded corners for inputs */
+}
+
+.btn {
+  margin-top: 10px; /* Margin for spacing after inputs */
+  padding: 10px 20px; /* Padding for button size */
+  border: none; /* Remove default button border */
+  border-radius: 3px; /* Rounded corners for buttons */
+}
+
+.btn-success {
+  background-color: #28a745; /* Bootstrap success green */
+  color: #fff; /* White text color */
+}
+
+.btn-default.border {
+  background-color: #fff; /* White background for default button */
+  color: #333; /* Dark gray text color */
+  border: 1px solid #ccc; /* Light gray border for default button */
+}
+
+p {
+  text-align: center; /* Center the terms and policies text */
+  margin-top: 10px; /* Margin for spacing after buttons */
+  font-size: 0.8rem; /* Adjust font size for readability */
+  color: #6c757d; /* Gray text color */
+}

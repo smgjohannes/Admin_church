@@ -1,0 +1,78 @@
+/* Overall container */
+.post-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Fills viewport height */
+  background-color: #fff; /* White background */
+  justify-content: center; /* Center content vertically */
+  align-items: center; /* Center content horizontally */
+  margin: 20px;
+}
+
+/* Content section */
+.post-content {
+  width: 100%; /* Matches Bootstrap's w-50 */
+  background-color: #eee; /* Light gray background */
+  border-radius: 5px; /* Rounded corners */
+  padding: 20px; /* Inner padding */
+}
+
+/* Add button */
+.add-button {
+  background-color: #4caf50; /* Green color */
+  color: white; /* White text */
+  padding: 8px 20px; /* Padding around text */
+  border: none; /* Remove border */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Indicate clickable action */
+  margin-bottom: 15px; /* Add space below */
+  margin-left: 10px;
+
+  text-decoration: none;
+}
+
+/* Post table */
+.post-table {
+  width: 100%; /* Full width */
+  border-collapse: collapse; /* Table borders collapse */
+  border: 1px solid #ddd; /* Light gray border */
+}
+
+/* Table header */
+.post-table thead tr th {
+  padding: 10px; /* Padding for header cells */
+  text-align: left; /* Left-align text */
+  border-bottom: 1px solid #ddd; /* Light gray border on bottom */
+}
+
+/* Table body (empty in this example) */
+.post-table tbody tr td {
+  padding: 10px; /* Padding for body cells */
+  border-bottom: 1px solid #ddd; /* Light gray border on bottom */
+}
+
+/* Post title */
+.post-title {
+  margin-top: 20px; /* Space above the title */
+  text-align: center; /* Center-align text */
+  font-size: 1.5rem; /* Adjust font size as needed */
+}
+.update-button {
+  background-color: #007bff; /* Blue color */
+  color: white; /* White text */
+  padding: 10px 20px; /* Padding around text */
+  border: none; /* Remove border */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Indicate clickable action */
+  font-size: 1rem; /* Adjust font size as needed */
+}
+.delete-button {
+  background-color: #dc3545; /* Red color */
+  color: white; /* White text */
+  padding: 10px 20px; /* Padding around text */
+  border: none; /* Remove border */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Indicate clickable action */
+  font-size: 1rem; /* Adjust font size as needed */
+  margin-left: 10px; /* Margin for spacing */
+}

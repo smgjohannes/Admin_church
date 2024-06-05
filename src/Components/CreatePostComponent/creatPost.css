@@ -1,0 +1,65 @@
+/* Overall container */
+.create-post {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Fills viewport height */
+  justify-content: center; /* Center content vertically */
+  align-items: center; /* Center content horizontally */
+}
+
+/* Form container */
+.create-post-form {
+  width: 50%; /* Adjust width as needed */
+  background-color: #969494; /* White background */
+  border-radius: 5px; /* Rounded corners */
+  padding: 20px; /* Inner padding */
+}
+
+/* Form heading */
+.create-post-form h2 {
+  margin-bottom: 20px; /* Space below heading */
+  text-align: center; /* Center-align text */
+}
+
+/* Form group container */
+.form-group-row {
+  display: flex;
+  justify-content: space-between; /* Space between fields */
+  margin-bottom: 15px; /* Space between groups */
+}
+
+/* Form group */
+.form-group {
+  flex: 0 0 48%; /* Two fields per row with space between */
+}
+
+/* Form label */
+.form-group label {
+  display: block; /* Display labels on their own line */
+  margin-bottom: 5px; /* Space below label */
+}
+
+/* Form input */
+.form-group input {
+  padding: 8px; /* Padding around input */
+  border: 1px solid #ddd; /* Light gray border */
+  border-radius: 3px; /* Rounded corners */
+  width: 100%; /* Full width */
+}
+
+/* File input */
+.form-group input[type='file'] {
+  padding: 8px; /* Adjust padding for file input */
+}
+
+/* Submit button */
+.submit-button {
+  background-color: #28a745; /* Green color */
+  color: white; /* White text */
+  padding: 10px 20px; /* Padding around text */
+  border: none; /* Remove border */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Indicate clickable action */
+  display: block;
+  margin: 0 auto;
+}
